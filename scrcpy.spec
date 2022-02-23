@@ -45,9 +45,10 @@ connected on USB (or over TCP/IP).
 %{_bindir}/%{pkgname}
 %{_datadir}/%{pkgname}
 %{_mandir}/man1/%{pkgname}.1*
-%{_mandir}/bash-completion/completions/%{pkgname}
-%{_mandir}/zsh/site-functions/_%{pkgname}
 %{_datadir}/icons/hicolor/*/apps/%{pkgname}.png
+/usr/share/bash-completion/completions/%{pkgname}
+/usr/share/zsh/site-functions/_scrcpy
+
 
 %changelog
 * Wed Feb 23 2022 Udo Seidel <udoseidel@gmx.de> 1.23-1
