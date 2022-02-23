@@ -1,6 +1,6 @@
 %define         pkgname         scrcpy
 %global         forgeurl        https://github.com/Genymobile/%{pkgname}
-Version:        1.22
+Version:        1.23
 
 %forgemeta -i
 
@@ -48,5 +48,8 @@ connected on USB (or over TCP/IP).
 %{_datadir}/icons/hicolor/*/apps/%{pkgname}.png
 
 %changelog
+* Wed Feb 23 2022 Udo Seidel <udoseidel@gmx.de> 1.23-1
+- new release
+
 * Sun Nov 14 2021 zeno <zeno@bafh.org> 1.20-3
 - fix runtime dependencies
