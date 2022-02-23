@@ -46,8 +46,8 @@ connected on USB (or over TCP/IP).
 %{_datadir}/%{pkgname}
 %{_mandir}/man1/%{pkgname}.1*
 %{_datadir}/icons/hicolor/*/apps/%{pkgname}.png
-/usr/share/bash-completion/completions/%{pkgname}
-/usr/share/zsh/site-functions/_scrcpy
+%{_datadir}/bash-completion/completions/%{pkgname}
+%{_datadir}/zsh/site-functions/_%{pkgname}
 
 
 %changelog
