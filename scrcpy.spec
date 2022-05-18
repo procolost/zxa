@@ -16,11 +16,12 @@ Source1:        https://github.com/Genymobile/%{pkgname}/releases/download/v%{ve
 BuildRequires:  meson gcc
 BuildRequires:  java-devel >= 11
 
+BuildRequires: ffmpeg
 BuildRequires:  pkgconfig(sdl2)
 BuildRequires:  pkgconfig(ffms2)
 BuildRequires:  pkgconfig(libusb-1.0)
 
-Requires:       adb
+Requires:       adb ffmpeg
 
 # https://github.com/Genymobile/scrcpy/blob/master/FAQ.md#issue-with-wayland
 Recommends:       libdecor
