@@ -1,6 +1,6 @@
 %define         pkgname         scrcpy
 %global         forgeurl        https://github.com/Genymobile/%{pkgname}
-Version:        1.24
+Version:        1.25
 
 %forgemeta -i
 
